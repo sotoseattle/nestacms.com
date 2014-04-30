@@ -1,7 +1,7 @@
 source 'http://rubygems.org'
 ruby '2.1.1'
 
-gem 'nesta'
+gem 'nesta', git: 'https://github.com/gma/nesta.git'
 gem 'nesta-plugin-cache', git: 'https://github.com/gma/nesta-plugin-cache.git'
 gem 'rack-force_domain', '0.1.1'
 gem 'rack-rewrite'

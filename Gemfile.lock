@@ -6,6 +6,18 @@ GIT
       nesta (>= 0.9.11)
       sinatra (>= 1.2)
 
+GIT
+  remote: https://github.com/gma/nesta.git
+  revision: 42cd22e04af2a52692c0ee81aa48885292c344b3
+  specs:
+    nesta (0.10.0)
+      RedCloth (~> 4.2)
+      haml (>= 3.1)
+      rack (>= 1.3)
+      rdiscount (~> 2.1)
+      sass (>= 3.1)
+      sinatra (~> 1.4)
+
 GEM
   remote: http://rubygems.org/
   specs:
@@ -43,13 +55,6 @@ GEM
       rb-inotify (>= 0.8)
       unicorn (>= 4.5)
     multi_json (1.9.3)
-    nesta (0.10.0)
-      RedCloth (~> 4.2)
-      haml (>= 3.1)
-      rack (>= 1.3)
-      rdiscount (~> 2.1)
-      sass (>= 3.1)
-      sinatra (~> 1.4)
     pry (0.9.12.6)
       coderay (~> 1.0)
       method_source (~> 0.8)
@@ -86,7 +91,7 @@ PLATFORMS
 DEPENDENCIES
   guard-livereload (= 1.0.0)
   mr-sparkle
-  nesta
+  nesta!
   nesta-plugin-cache!
   rack-force_domain (= 0.1.1)
   rack-rewrite
